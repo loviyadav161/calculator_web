@@ -1,0 +1,45 @@
+.header h1{
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    margin: 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+    background-color: black ;
+    margin: 0px 0px;
+    width: auto;
+    height: 30px;
+}
+.nav a{
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 10px;
+}.nav a:hover{
+    color: blue;
+}
+.nav input{
+    margin-left: 700px;
+    margin-top: 5px;
+}
+.footer {
+    margin-top: 150px;
+    background-color: rgb(100, 235, 100);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.middle a:hover{
+    color: black;
+}
+.middle button{
+    margin: 10px 10px;
+    background-color: lightgreen;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.middle{
+    text-align: center;
+    margin: 20px 20px;
+}
