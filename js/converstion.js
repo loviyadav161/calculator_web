@@ -30,3 +30,11 @@ function bin2hex(){
         document.getElementById('output3').value = ans3;
     }
 }
+
+let d = document.getElementById('input4');
+let ans4;
+document.getElementById('go4').addEventListener('click',convertNumber);
+function convertNumber() {
+    ans4 =  parseInt(d.value.toString(), 16).toString(2);
+    document.getElementById('output4').value = ans4;
+  }
